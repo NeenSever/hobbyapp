@@ -1,0 +1,81 @@
+html {
+    font-family: 'Exo 2', sans-serif;
+}
+
+.navbar {
+    background: linear-gradient(90deg, rgba(34,37,34,1) 0%, rgba(85, 117, 77, 0.887) 35%, rgba(139,159,161,0.06624656698616949) 100%);
+    padding: 5px;
+    margin-bottom: 5px;
+    position: sticky;
+    top: 0;
+}
+
+.navbar li {
+    display: inline;
+    color: white;
+    font-size: large;
+}
+
+#banner {
+    background-image: url(Jo.jpg);
+    background-size: cover;
+    background-position: bottom center;
+    height: 706px;
+    width: 100%;
+}
+
+#banner .content h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 5px;
+    border: 3px solid rgb(255, 255, 255);
+    position: relative;
+    top: 50px;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.main_container {
+    background: linear-gradient(90deg, rgba(34,37,34,1) 0%, rgba(85, 117, 77, 0.887) 35%, rgba(139,159,161,0.06624656698616949) 100%);
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.me_container {
+    width: 300px;
+    height: 300px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+#me {
+    background-color: rgb(138, 45, 45);
+}
+
+#hobby {
+    background-color: rgb(34,37,34);
+}
+
+#photography {
+    background-color: rgb(125, 148, 125);
+}
+
+.footer {
+    background: rgb(34,37,34);
+    background: linear-gradient(90deg, rgba(34,37,34,1) 0%, rgba(48, 49, 47, 0.887) 35%, rgba(139,159,161,0.06624656698616949) 100%);
+    padding: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    position: sticky;
+    bottom: 0;
+}
+
+.footer li {
+    display: inline;
+    color: whitesmoke;
+}
